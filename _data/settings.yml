@@ -1,16 +1,15 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
+title: Artists Group
+description:  Japanese Calligraphy Artist group
+email: @gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
+- {name: About Us, url: '#about-us'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -39,11 +38,7 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Travis specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
-
+  This site is still under constraction and its purpose, benefit and etc are not yet clear.
 
 skills:
 - {name: Communication, value: '9'}
