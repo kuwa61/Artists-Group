@@ -96,11 +96,11 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
-- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
-- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'twitter', link: 'http://twitter.com/'}
+#- {icon: 'dribbble', link: 'https://dribbble.com/'}
+#- {icon: 'behance', link: 'https://www.behance.net/'}
 - {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+#- {icon: 'linkedin', link: 'http://www.linkedin.com/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
