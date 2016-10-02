@@ -1,25 +1,50 @@
 .face-lockup
   //background: #ccc
-  max-width: 780px
+  max-width: 1080px
   +display(flex)
   margin: 0 auto
   +align-items(center)
   +justify-content(space-between)
 
-  [class^="icon-"]
-    +size(100px)
-    background: $bgcolor
+  .face-img
     border-radius: 50%
-    path
-      fill: $accent
-    &.icon-pencil
-      +order(1)
-    &.icon-mouse
-      +order(2)
-    &.icon-browser
-      +order(4)
-    &.icon-video
-      +order(5)
+    background-size: cover
+    background-position: center
+    background-image: url(../img/#{$avatar-path})
+    +size(200px)
+    +order(3)
+
+  .pencil
+    border-radius: 50%
+    background-size: cover
+    background-position: center
+    background-image: url(../img/face-aaroni_.jpg)
+    +size(200px)
+    +order(1)
+
+  .mouse
+    border-radius: 50%
+    background-size: cover
+    background-position: center
+    background-image: url(../img/face-atariboy_.jpg)
+    +size(200px)
+    +order(2)
+
+  .browser
+    border-radius: 50%
+    background-size: cover
+    //background-position: center
+    background-image: url(../img/face-jackiesaik_.jpg)
+    +size(200px)
+    +order(4)
+
+  .video
+    border-radius: 50%
+    background-size: cover
+    background-position: center
+    background-image: url(../img/face-teleject_.jpg)
+    +size(200px)
+    +order(5)
 
 @media screen and (max-width: 650px)
   .face-lockup
